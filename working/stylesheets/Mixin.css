@@ -15,3 +15,15 @@ and open the template in the editor.
   -webkit-border-radius: 5px;
   border-radius: 5px;
 }
+
+/* line 32, ../sass/Mixin.scss */
+ul.plain {
+  color: #444;
+  list-style: none;
+}
+/* line 25, ../sass/Mixin.scss */
+ul.plain li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0px;
+}
