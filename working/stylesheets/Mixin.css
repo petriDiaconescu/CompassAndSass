@@ -27,3 +27,16 @@ ul.plain li {
   list-style-type: none;
   margin-left: 0px;
 }
+
+/* line 43, ../sass/Mixin.scss */
+a {
+  color: blue;
+}
+/* line 39, ../sass/Mixin.scss */
+a:hover {
+  color: red;
+}
+/* line 40, ../sass/Mixin.scss */
+a:visited {
+  color: green;
+}

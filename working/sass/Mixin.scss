@@ -33,3 +33,13 @@ ul.plain {
   color: #444;
   @include no-bullets;
 }
+
+@mixin link-colors($normal, $hover, $visited){
+  color: $normal;
+  &:hover {color: $hover}
+  &:visited {color: $visited}
+}
+
+a {
+  @include link-colors(blue, red, green)
+}
