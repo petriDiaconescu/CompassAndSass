@@ -41,5 +41,9 @@ ul.plain {
 }
 
 a {
-  @include link-colors(blue, red, green)
+  @include link-colors(
+    $normal: blue,
+    $visited: green,
+    $hover: red
+  )
 }
