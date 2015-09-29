@@ -1,0 +1,21 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 29, 2015, 7:22:55 PM
+    Author     : petrero
+*/
+/* line 11, ../sass/NestedChildAndSiblings.scss */
+article > section {
+  border-top: 1px dashed #ccc;
+}
+/* line 13, ../sass/NestedChildAndSiblings.scss */
+article dl > dt {
+  color: #333;
+}
+/* line 14, ../sass/NestedChildAndSiblings.scss */
+article dl > dd {
+  color: #555;
+}
