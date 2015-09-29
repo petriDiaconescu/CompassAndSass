@@ -33,3 +33,13 @@ article a:hover {
 body.ie #content aside {
   color: green;
 }
+
+/* line 30, ../sass/cascade.scss */
+.container h1, .container h2, .container h3 {
+  margin-bottom: .8em;
+}
+
+/* line 34, ../sass/cascade.scss */
+nav a, aside a {
+  color: blue;
+}
