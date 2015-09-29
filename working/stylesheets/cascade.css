@@ -28,3 +28,8 @@ article a {
 article a:hover {
   color: resd;
 }
+
+/* line 26, ../sass/cascade.scss */
+body.ie #content aside {
+  color: green;
+}
