@@ -19,3 +19,7 @@ article dl > dt {
 article dl > dd {
   color: #555;
 }
+/* line 17, ../sass/NestedChildAndSiblings.scss */
+nav + article {
+  margin-top: 0;
+}
