@@ -34,9 +34,9 @@ a {
 }
 /* line 39, ../sass/Mixin.scss */
 a:hover {
-  color: red;
+  color: blue;
 }
 /* line 40, ../sass/Mixin.scss */
 a:visited {
-  color: green;
+  color: blue;
 }
