@@ -16,3 +16,8 @@ and open the template in the editor.
   
   aside {background-color: #eee}
 }
+
+article a{
+  color: blue;
+  &:hover {color: resd}
+}

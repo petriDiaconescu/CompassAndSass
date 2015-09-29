@@ -19,3 +19,12 @@ and open the template in the editor.
 #content aside {
   background-color: #eee;
 }
+
+/* line 20, ../sass/cascade.scss */
+article a {
+  color: blue;
+}
+/* line 22, ../sass/cascade.scss */
+article a:hover {
+  color: resd;
+}
