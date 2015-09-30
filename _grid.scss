@@ -1,0 +1,57 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 30, 2015, 1:29:48 PM
+    Author     : xubuntu
+*/
+
+@mixin blueprint-grid {
+  // A container should group all your columns
+  .container {
+    @include container; }
+  .column {
+    @include column-base; }
+  // The last column in a row needs this class (or mixin) or it will end up on the next row.
+  .last {
+    @include last; }
+  // Use these classes (or mixins) to set the width of a column.
+  @for $n from 1 to $blueprint-grid-columns {
+    .span-#{$n} {
+      @extend .column;
+      width: span($n); } }
+  .span-#{$blueprint-grid-columns} {
+    @extend .column;
+    width: span($blueprint-grid-columns);
+    margin: 0; }
+  input, textarea, select {
+    @for $n from 1 through $blueprint-grid-columns {
+      &.span-#{$n} {
+        width: span($n); } } }
+  // Add these to a column to append empty cols.
+  @for $n from 1 to $blueprint-grid-columns {
+    .append-#{$n} {
+      @include append($n); } }
+  // Add these to a column to prepend empty cols.
+  @for $n from 1 to $blueprint-grid-columns {
+    .prepend-#{$n} {
+      @include prepend($n); } }
+  // Use these classes on an element to push it into the
+  // next column, or to pull it into the previous column.
+  #{enumerate(".pull", 1, $blueprint-grid-columns)} {
+    @include pull-base; }
+  @for $n from 1 through $blueprint-grid-columns {
+    .pull-#{$n} {
+      @include pull-margins($n); } }
+  #{enumerate(".push", 1, $blueprint-grid-columns)} {
+    @include push-base; }
+  @for $n from 1 through $blueprint-grid-columns {
+    .push-#{$n} {
+      @include push-margins($n); } }
+  .prepend-top {
+    @include prepend-top; }
+  .append-bottom {
+    @include append-bottom; } 
+}
