@@ -18,11 +18,11 @@ and open the template in the editor.
   .last {
     @include last; }
   // Use these classes (or mixins) to set the width of a column.
-  @for $n from 1 to $blueprint-grid-columns {
+  @for $n from 1 to $blueprint-grid-columns {     // generate span-xx classes
     .span-#{$n} {
       @extend .column;
       width: span($n); } }
-  .span-#{$blueprint-grid-columns} {
+  .span-#{$blueprint-grid-columns} { //last column class needs no gutter
     @extend .column;
     width: span($blueprint-grid-columns);
     margin: 0; }
