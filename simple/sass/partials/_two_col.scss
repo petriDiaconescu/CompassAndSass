@@ -23,16 +23,16 @@
 
 body.two-col {
   #container {
-    @include container;
+    @include container;  //Setup grid container
   }
 
   #header, #footer {
-    @include column($blueprint-grid-columns);
+    @include column($blueprint-grid-columns);           //Full-width header and footer
   }
 
   #sidebar {
     // One third of the grid columns, rounding down. With 24 cols, this is 8.
-    $sidebar-columns: floor($blueprint-grid-columns / 3);
+    $sidebar-columns: floor($blueprint-grid-columns / 3);       //Use a third of columns for sidebar
 
     @include column($sidebar-columns);
   }
