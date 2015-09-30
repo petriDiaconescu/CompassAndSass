@@ -1,0 +1,22 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 30, 2015, 2:57:50 PM
+    Author     : xubuntu
+*/
+
+section header, section footer{
+    background-color: #f00;
+}
+
+section section {
+    background-color: #0f0;
+}
+
+section aside {
+    background-color: #00f;
+}
+
