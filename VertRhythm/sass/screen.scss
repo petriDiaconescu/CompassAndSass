@@ -21,5 +21,8 @@ h2 {@include adjust-font-size-to(36px)}
 h3 {@include adjust-font-size-to(24px)}
 h4 {@include adjust-font-size-to(20px)}
 h5 {@include adjust-font-size-to(18px)}
-p {margin: 1.5em 0;}
+p {@include leader; @include trailer}
+h2.important {@include leader(2); @include trailer(2)}
+
+
 
