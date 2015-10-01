@@ -1,0 +1,11 @@
+@import "compass/typography";
+
+a {@include link-colors(#333, #00f, #f00, #555, #f00)}
+a {@include link-colors(
+      333,
+      $hover: #00f,
+      $active: #f00,
+      $visited: #555,
+      $focus: #f00
+   )}
+
