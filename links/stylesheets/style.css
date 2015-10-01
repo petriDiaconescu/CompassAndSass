@@ -57,3 +57,14 @@ a.hover-link {
 a.hover-link:hover, a.hover-link:focus {
   text-decoration: underline;
 }
+
+/* line 15, ../sass/style.scss */
+p.secret a {
+  color: inherit;
+  text-decoration: inherit;
+  cursor: inherit;
+}
+/* line 6, ../../../../../.rvm/gems/ruby-2.2.3/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_unstyled-link.scss */
+p.secret a:active, p.secret a:focus {
+  outline: none;
+}
