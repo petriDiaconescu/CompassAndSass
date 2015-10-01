@@ -48,3 +48,12 @@ a {
 a:hover {
   color: #00f;
 }
+
+/* line 14, ../sass/style.scss */
+a.hover-link {
+  text-decoration: none;
+}
+/* line 4, ../../../../../.rvm/gems/ruby-2.2.3/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_hover-link.scss */
+a.hover-link:hover, a.hover-link:focus {
+  text-decoration: underline;
+}
