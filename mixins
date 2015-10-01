@@ -1,0 +1,5 @@
+reset-box-model                     Removes margin, padding, and borders on elements
+reset-font                          Resets the font size and baseline
+reset-focus                         Removes browser-supplied outlines (like <input> elements in Safari)
+reset-table and reset-table-cell    Resets table borders and alignment
+reset-quotation                     Adds stylesheet-only quotation marks for <blockquote>
