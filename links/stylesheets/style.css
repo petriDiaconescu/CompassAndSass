@@ -39,3 +39,12 @@ a:hover {
 a:active {
   color: #f00;
 }
+
+/* line 12, ../sass/style.scss */
+a {
+  color: #333;
+}
+/* line 24, ../../../../../.rvm/gems/ruby-2.2.3/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_link-colors.scss */
+a:hover {
+  color: #00f;
+}
