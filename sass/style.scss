@@ -1,5 +1,9 @@
 @import "compass/typography";
 
+/*
 ul.features {
   @include pretty-bullets('../images/bullet.png');
 }
+*/
+
+li.no-bullet {@include no-bullet;}
