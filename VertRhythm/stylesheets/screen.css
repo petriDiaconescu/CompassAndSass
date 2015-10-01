@@ -74,34 +74,34 @@ body {
   line-height: 24px;
 }
 
-/* line 14, ../sass/screen.scss */
+/* line 15, ../sass/screen.scss */
 h1 {
   font-size: 48px;
-}
-
-/* line 15, ../sass/screen.scss */
-h2 {
-  font-size: 36px;
+  line-height: 0.5em;
 }
 
 /* line 16, ../sass/screen.scss */
-h3 {
-  font-size: 24px;
+h2 {
+  font-size: 36px;
+  line-height: 0.666667em;
 }
 
 /* line 17, ../sass/screen.scss */
-h4 {
-  font-size: 20px;
+h3 {
+  font-size: 24px;
+  line-height: 1.0em;
 }
 
 /* line 18, ../sass/screen.scss */
-h5 {
-  font-size: 18px;
+h4 {
+  font-size: 20px;
+  line-height: 1.2em;
 }
 
 /* line 19, ../sass/screen.scss */
-h1, h2, h3, h4, h5 {
-  line-height: 1.5em;
+h5 {
+  font-size: 18px;
+  line-height: 1.333333em;
 }
 
 /* line 20, ../sass/screen.scss */
