@@ -4,7 +4,7 @@ ul.features {
 }
 */
 /* line 9, ../sass/style.scss */
-li.no-bullet {
+ul.no-bullet {
   list-style-image: none;
   list-style-type: none;
   margin-left: 0;
