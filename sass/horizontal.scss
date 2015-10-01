@@ -2,5 +2,5 @@
 
 ul.nav {@include horizontal-list;}
 
-ul.words {@include delimited-list}
+ul.words {@include delimited-list("! ")}
 

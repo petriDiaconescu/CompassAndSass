@@ -41,7 +41,7 @@ ul.words, ul.words li {
 }
 /* line 30, ../../../../.rvm/gems/ruby-2.2.3/gems/compass-core-1.0.3/stylesheets/compass/typography/lists/_inline-list.scss */
 ul.words li:after {
-  content: ", ";
+  content: "! ";
 }
 /* line 32, ../../../../.rvm/gems/ruby-2.2.3/gems/compass-core-1.0.3/stylesheets/compass/typography/lists/_inline-list.scss */
 ul.words li:last-child:after {
