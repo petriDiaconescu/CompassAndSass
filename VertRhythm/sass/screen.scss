@@ -4,18 +4,22 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "compass/reset";
+@import "compass/typography";
+
+$base-font-size: 16px;
+$base-line-height: 24px;
+@include establish-baseline;
 
 body {
   font-family: 'Helvetica Neue', sans-serif;
-  font-size: 16px;
-  line-height: 24px;  //our baseline unit
+  @include debug-vertical-alignment("../images/debug.png");
 }
 
 //(baseline unit/font-size) = line-height
-h1 {font-size: 48px; line-height: 0.5em}        //(24px / 48px) = .5em  
-h2 {font-size: 36px; line-height: 0.666667em}   //(24px / 36px) = .666667em
-h3 {font-size: 24px; line-height: 1.0em}          //(24px / 24px) = 1em
-h4 {font-size: 20px; line-height: 1.2em}        //(24px / 20px) = 1.2em
-h5 {font-size: 18px; line-height: 1.333333em}   //(24px / 18px) = 1.333333em
+h1 {@include adjust-font-size-to(48px)}  
+h2 {@include adjust-font-size-to(36px)}
+h3 {@include adjust-font-size-to(24px)}
+h4 {@include adjust-font-size-to(20px)}
+h5 {@include adjust-font-size-to(18px)}
 p {margin: 1.5em 0;}
 

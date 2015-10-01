@@ -67,44 +67,49 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 8, ../sass/screen.scss */
+/* line 106, ../../../../../.rvm/gems/ruby-2.2.3/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
+html {
+  font-size: 100%;
+  line-height: 1.5em;
+}
+
+/* line 13, ../sass/screen.scss */
 body {
   font-family: 'Helvetica Neue', sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-}
-
-/* line 15, ../sass/screen.scss */
-h1 {
-  font-size: 48px;
-  line-height: 0.5em;
-}
-
-/* line 16, ../sass/screen.scss */
-h2 {
-  font-size: 36px;
-  line-height: 0.666667em;
-}
-
-/* line 17, ../sass/screen.scss */
-h3 {
-  font-size: 24px;
-  line-height: 1.0em;
-}
-
-/* line 18, ../sass/screen.scss */
-h4 {
-  font-size: 20px;
-  line-height: 1.2em;
+  background: url('/images/../images/debug.png?1390323011');
 }
 
 /* line 19, ../sass/screen.scss */
-h5 {
-  font-size: 18px;
-  line-height: 1.333333em;
+h1 {
+  font-size: 3em;
+  line-height: 1.5em;
 }
 
 /* line 20, ../sass/screen.scss */
+h2 {
+  font-size: 2.25em;
+  line-height: 1.33333em;
+}
+
+/* line 21, ../sass/screen.scss */
+h3 {
+  font-size: 1.5em;
+  line-height: 2em;
+}
+
+/* line 22, ../sass/screen.scss */
+h4 {
+  font-size: 1.25em;
+  line-height: 1.2em;
+}
+
+/* line 23, ../sass/screen.scss */
+h5 {
+  font-size: 1.125em;
+  line-height: 1.33333em;
+}
+
+/* line 24, ../sass/screen.scss */
 p {
   margin: 1.5em 0;
 }
