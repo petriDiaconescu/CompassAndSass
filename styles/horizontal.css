@@ -28,3 +28,26 @@ ul.nav li:last-child {
 ul.nav li.last {
   padding-right: 0;
 }
+
+/* line 5, ../sass/horizontal.scss */
+ul.words {
+  list-style-type: none;
+}
+/* line 6, ../../../../.rvm/gems/ruby-2.2.3/gems/compass-core-1.0.3/stylesheets/compass/typography/lists/_inline-list.scss */
+ul.words, ul.words li {
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+/* line 30, ../../../../.rvm/gems/ruby-2.2.3/gems/compass-core-1.0.3/stylesheets/compass/typography/lists/_inline-list.scss */
+ul.words li:after {
+  content: ", ";
+}
+/* line 32, ../../../../.rvm/gems/ruby-2.2.3/gems/compass-core-1.0.3/stylesheets/compass/typography/lists/_inline-list.scss */
+ul.words li:last-child:after {
+  content: "";
+}
+/* line 36, ../../../../.rvm/gems/ruby-2.2.3/gems/compass-core-1.0.3/stylesheets/compass/typography/lists/_inline-list.scss */
+ul.words li.last:after {
+  content: "";
+}
