@@ -18,3 +18,14 @@ table td.nowrap {
   border: 1px solid #000;
   white-space: nowrap;
 }
+
+/* line 19, ../sass/style.scss */
+h1.coffee {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  text-transform: capitalize;
+  background-image: url('../img/coffee_header.jpg?1443763939');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}

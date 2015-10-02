@@ -15,3 +15,7 @@ table {
         @include nowrap;
     }
 }
+
+h1.coffee {
+    @include replace-text("../img/coffee_header.jpg");
+}
