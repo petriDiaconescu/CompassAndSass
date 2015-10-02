@@ -1,0 +1,22 @@
+/* line 3, ../sass/shadows.scss */
+#wrapper {
+  margin: 0 auto;
+  width: 600px;
+}
+
+/* line 8, ../sass/shadows.scss */
+h1, h2 {
+  font-family: sans-serif;
+}
+
+/* line 12, ../sass/shadows.scss */
+h1 {
+  text-shadow: #ccc 5px 5px 2px;
+}
+
+/* line 16, ../sass/shadows.scss */
+h2 {
+  text-shadow: #ddd -1px 1px 0;
+  background: #999;
+  padding: 1em;
+}
