@@ -1,2 +1,21 @@
 @import "compass/css3";
 
+button {
+  background: #f00;
+  border: 0;
+  color: #fff;
+  line-height: 30px;
+  width: 100px;
+}
+
+button.rounded {
+  @include border-radius(5px);
+}
+
+button.really-rounded {
+  @include border-radius(10px);
+}
+
+button.extreme-rounded {
+  @include border-radius(30px);
+}

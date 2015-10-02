@@ -1,0 +1,29 @@
+/* line 3, ../sass/rounded.scss */
+button {
+  background: #f00;
+  border: 0;
+  color: #fff;
+  line-height: 30px;
+  width: 100px;
+}
+
+/* line 11, ../sass/rounded.scss */
+button.rounded {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 15, ../sass/rounded.scss */
+button.really-rounded {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* line 19, ../sass/rounded.scss */
+button.extreme-rounded {
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+}
