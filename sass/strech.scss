@@ -27,4 +27,9 @@
   @include stretch;
 }
 
+#stretch-offset {
+  @extend %stretched;
+  @include stretch(2em, 2em, 2em, 2em);
+}
+
 

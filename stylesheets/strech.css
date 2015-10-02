@@ -12,7 +12,7 @@
 }
 
 /* line 13, ../sass/strech.scss */
-#stretch-full {
+#stretch-full, #stretch-offset {
   border: 3px solid #4c6b99;
   -moz-border-radius: 8px;
   -webkit-border-radius: 8px;
@@ -32,4 +32,13 @@
   bottom: 0;
   left: 0;
   right: 0;
+}
+
+/* line 30, ../sass/strech.scss */
+#stretch-offset {
+  position: absolute;
+  top: 2em;
+  bottom: 2em;
+  left: 2em;
+  right: 2em;
 }
