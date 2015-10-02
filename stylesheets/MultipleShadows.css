@@ -4,7 +4,7 @@
   width: 800px;
 }
 
-/* line 8, ../sass/MultipleShadows.scss */
+/* line 13, ../sass/MultipleShadows.scss */
 .motion {
   text-shadow: rgba(0, 0, 0, 0.5) -200px 0 0, rgba(0, 0, 0, 0.4) -400px 0 0, rgba(0, 0, 0, 0.3) -600px 0 0, rgba(0, 0, 0, 0.2) -800px 0 0;
   font-size: 2em;
@@ -12,7 +12,12 @@
   text-align: right;
 }
 
-/* line 20, ../sass/MultipleShadows.scss */
+/* line 25, ../sass/MultipleShadows.scss */
+.skipping {
+  text-shadow: rgba(0, 0, 0, 0.4) -400px 0 0, rgba(0, 0, 0, 0.2) -800px 0 0;
+}
+
+/* line 32, ../sass/MultipleShadows.scss */
 .simon {
   -moz-border-radius: 100px;
   -webkit-border-radius: 100px;

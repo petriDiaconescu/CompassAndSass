@@ -5,16 +5,28 @@
   width: 800px;
 }
 
+$shadow-1: rgba(#000, .5) -200px 0 0;
+$shadow-2: rgba(#000, .4) -400px 0 0;
+$shadow-3: rgba(#000, .3) -600px 0 0;
+$shadow-4: rgba(#000, .2) -800px 0 0;
+
 .motion {
   @include text-shadow(
-    rgba(#000, .5) -200px 0 0,
-    rgba(#000, .4) -400px 0 0,
-    rgba(#000, .3) -600px 0 0,
-    rgba(#000, .2) -800px 0 0
+    $shadow-1,
+    $shadow-2,
+    $shadow-3,
+    $shadow-4
   );
   font-size: 2em;
   font-style: italic;
   text-align: right;
+}
+
+.skipping {
+  @include text-shadow(
+    $shadow-2,
+    $shadow-4
+  )
 }
 
 .simon {
