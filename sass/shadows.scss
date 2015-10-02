@@ -1,5 +1,20 @@
 @import "compass/css3";
 
+$shadow-color: #ccc;
+$shadow-h: 5px;
+$shadow-v: 5px;
+$shadow-blur: 0;
+
+$default-text-shadow-color: $shadow-color;
+$default-text-shadow-h-offset: $shadow-h;
+$default-text-shadow-v-offset: $shadow-v;
+$default-text-shadow-blur: $shadow-blur;
+
+$default-box-shadow-color: $shadow-color;
+$default-box-shadow-h-offset: $shadow-h;
+$default-box-shadow-v-offset: $shadow-v;
+$default-box-shadow-blur: $shadow-blur;
+
 #wrapper {
   margin: 0 auto;
   width: 600px;
@@ -10,12 +25,12 @@ h1, h2 {
 }
 
 h1 {
-  text-shadow: #ccc 5px 5px 2px;
+  @include text-shadow;
 }
 
 h2 {
-  @include box-shadow(#ccc 5px 5px 2px);
-  text-shadow: #ddd -1px 1px 0;
+  @include box-shadow;
+  @include single-text-shadow(#ddd, -1px, 1px);
   background: #999;
   padding: 1em;
 }

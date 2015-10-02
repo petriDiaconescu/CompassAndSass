@@ -1,25 +1,25 @@
-/* line 3, ../sass/shadows.scss */
+/* line 18, ../sass/shadows.scss */
 #wrapper {
   margin: 0 auto;
   width: 600px;
 }
 
-/* line 8, ../sass/shadows.scss */
+/* line 23, ../sass/shadows.scss */
 h1, h2 {
   font-family: sans-serif;
 }
 
-/* line 12, ../sass/shadows.scss */
+/* line 27, ../sass/shadows.scss */
 h1 {
-  text-shadow: #ccc 5px 5px 2px;
+  text-shadow: 5px 5px 0 #ccc;
 }
 
-/* line 16, ../sass/shadows.scss */
+/* line 31, ../sass/shadows.scss */
 h2 {
-  -moz-box-shadow: #ccc 5px 5px 2px;
-  -webkit-box-shadow: #ccc 5px 5px 2px;
-  box-shadow: #ccc 5px 5px 2px;
-  text-shadow: #ddd -1px 1px 0;
+  -moz-box-shadow: 5px 5px 0 #ccc;
+  -webkit-box-shadow: 5px 5px 0 #ccc;
+  box-shadow: 5px 5px 0 #ccc;
+  text-shadow: -1px 1px 0 #ddd;
   background: #999;
   padding: 1em;
 }
