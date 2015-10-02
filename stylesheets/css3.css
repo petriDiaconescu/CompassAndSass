@@ -1,11 +1,15 @@
-/* line 5, ../sass/css3.scss */
+/* line 6, ../sass/css3.scss */
 .notice {
-  /* Capability border-radius is prefixed with -moz because 0.25036% of users need it which is more than the threshold of 0.1%. */
+  /* Capability border-radius is prefixed with -moz because 0.25036% of users need it which is more than the threshold of -1.2%. */
   /* Creating new -moz context. */
   -moz-border-radius: 5px;
-  /* Capability border-radius is not prefixed with -ms because 0% of users are affected which is less than the threshold of 0.1. */
-  /* Capability border-radius is not prefixed with -o because 0% of users are affected which is less than the threshold of 0.1. */
-  /* Capability border-radius is prefixed with -webkit because 0.1583% of users need it which is more than the threshold of 0.1%. */
+  /* Capability border-radius is prefixed with -ms because 0% of users need it which is more than the threshold of -1.2%. */
+  /* Creating new -ms context. */
+  -ms-border-radius: 5px;
+  /* Capability border-radius is prefixed with -o because 0% of users need it which is more than the threshold of -1.2%. */
+  /* Creating new -o context. */
+  -o-border-radius: 5px;
+  /* Capability border-radius is prefixed with -webkit because 0.1583% of users need it which is more than the threshold of -1.2%. */
   /* Creating new -webkit context. */
   -webkit-border-radius: 5px;
   border-radius: 5px;
