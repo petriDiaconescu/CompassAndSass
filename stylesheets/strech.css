@@ -10,3 +10,26 @@
   *zoom: 1;
   *display: inline;
 }
+
+/* line 13, ../sass/strech.scss */
+#stretch-full {
+  border: 3px solid #4c6b99;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  display: block;
+  background-color: #192433;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.5em;
+}
+
+/* line 25, ../sass/strech.scss */
+#stretch-full {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}

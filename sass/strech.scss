@@ -22,6 +22,9 @@
   padding: 0.5em;
 }
 
-
+#stretch-full {
+  @extend %stretched;
+  @include stretch;
+}
 
 
