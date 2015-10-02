@@ -37,3 +37,8 @@
   @include stretch-x;
 }
 
+#stretch-y {
+  @extend %stretched;
+  @include stretch-y;
+}
+
