@@ -16,6 +16,9 @@ h1 {
 
 /* line 16, ../sass/shadows.scss */
 h2 {
+  -moz-box-shadow: #ccc 5px 5px 2px;
+  -webkit-box-shadow: #ccc 5px 5px 2px;
+  box-shadow: #ccc 5px 5px 2px;
   text-shadow: #ddd -1px 1px 0;
   background: #999;
   padding: 1em;
