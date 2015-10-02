@@ -7,3 +7,11 @@ div.dot-to-dot {
     @include ellipsis;
 }
 
+table {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    td.nowrap {
+        border: 1px solid #000;
+        @include nowrap;
+    }
+}

@@ -7,3 +7,14 @@ div.dot-to-dot {
   -o-text-overflow: ellipsis;
   text-overflow: ellipsis;
 }
+
+/* line 10, ../sass/style.scss */
+table {
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+/* line 13, ../sass/style.scss */
+table td.nowrap {
+  border: 1px solid #000;
+  white-space: nowrap;
+}
