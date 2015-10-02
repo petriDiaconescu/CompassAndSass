@@ -32,4 +32,8 @@
   @include stretch(2em, 2em, 2em, 2em);
 }
 
+#stretch-x {
+  @extend %stretched;
+  @include stretch-x;
+}
 
