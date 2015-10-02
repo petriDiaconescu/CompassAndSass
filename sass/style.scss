@@ -1,0 +1,9 @@
+@import "compass/typography";
+
+
+
+div.dot-to-dot {
+    width: 200px;
+    @include ellipsis;
+}
+

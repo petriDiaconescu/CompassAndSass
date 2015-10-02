@@ -1,0 +1,9 @@
+/* line 5, ../sass/style.scss */
+div.dot-to-dot {
+  width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  -ms-text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
