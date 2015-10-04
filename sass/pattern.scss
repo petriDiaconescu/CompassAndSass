@@ -60,3 +60,26 @@
     )
   )
 }
+
+// Same as the first example but with #ccc at the 30% from the top, and #bbb at 70% from the top
+#v-gradient-3 {
+  @include background(
+    linear-gradient(
+      white,
+      #cccccc 30%,
+      #bbbbbb 70%,
+      #aaaaaa
+    )
+  )
+}
+
+// This yields a horizontal linear gradient spanning from left to right.
+#h-gradient{
+  @include background(
+    linear-gradient(
+      to right,
+      #fff,
+      #ddd
+    )
+  )
+}
