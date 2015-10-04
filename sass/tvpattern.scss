@@ -1,1 +1,31 @@
 @import "compass/css3";
+
+*{
+    height: 100%;
+}
+
+#pattern {
+  @include background(
+    linear-gradient(
+      to right,
+      #bfbfbf 0%,
+      #bfbfbf 12.5%,
+      #bfbf00 12.5%,
+      #bfbf00 25%,
+      #00bfbf 25%,
+      #00bfbf 37.5%,
+      #bfbf00 37.5%,
+      #00bf00 37.5%,
+      #00bf00 50%,
+      #bf00bf 50%,
+      #bf00bf 62.5%,
+      #bf0000 62.5%,
+      #bf0000 75%,
+      #0000bf 75%,
+      #0000bf 87.5%,
+      #000 87.5%,
+      #000 100%
+    )
+  );
+  
+}
