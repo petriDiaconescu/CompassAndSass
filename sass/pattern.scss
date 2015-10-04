@@ -49,3 +49,14 @@
     )
   )
 }
+
+// Same as above but with a #ccc at the halfway point
+#v-gradient-2 {
+  @include background(
+    linear-gradient(
+      white,
+      #cccccc,
+      #aaaaaa
+    )
+  )
+}
