@@ -18,3 +18,15 @@
   float: left;
   margin: 1em 1em 0 0;
 }
+
+
+#radial-gradient {
+  @include background(
+    radial-gradient(
+      45px 45px,
+      cyan 10px,
+      dodgerblue 30px
+    )
+  )
+}
+
