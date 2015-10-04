@@ -30,3 +30,12 @@
   )
 }
 
+#linear-gradient {
+  @include background(
+    linear-gradient(
+      to bottom right,
+      white,
+      #dddddd
+    )
+  )
+}
