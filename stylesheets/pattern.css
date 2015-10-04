@@ -1,9 +1,21 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : Oct 4, 2015, 10:11:59 AM
-    Author     : petrero
-*/
+/* line 4, ../sass/pattern.scss */
+.ex {
+  width: 40%;
+  margin-right: 2%;
+  float: left;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 9, ../sass/pattern.scss */
+.ex p {
+  padding-top: 10px;
+}
+
+/* line 14, ../sass/pattern.scss */
+.gradient-example {
+  width: 80px;
+  height: 80px;
+  background: #f00;
+  float: left;
+  margin: 1em 1em 0 0;
+}
