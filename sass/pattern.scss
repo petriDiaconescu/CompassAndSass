@@ -98,3 +98,18 @@
   width: 80px;
   height: 80px;
 }
+
+//This gradient uses an angle to specify the gradient direction.
+#angle-gradient{
+  $svg-gradient-shim-threshold: 1 !global;
+  @include background(
+    linear-gradient(
+      120deg,
+      #2ac363,
+      #cd8c14,
+      #9c4cc2
+    )
+  );
+  width: 80px;
+  height: 80px;
+}
