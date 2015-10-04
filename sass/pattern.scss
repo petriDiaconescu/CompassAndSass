@@ -39,3 +39,13 @@
     )
   )
 }
+
+// This yields a gradient starting at the top with #fff, ending in #aaa
+#v-gradient {
+  @include background(
+    linear-gradient(
+      white,
+      #aaaaaa
+    )
+  )
+}
