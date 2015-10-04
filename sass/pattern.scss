@@ -113,3 +113,15 @@
   width: 80px;
   height: 80px;
 }
+
+//This is the SVG shim for the angle gradient without it being used as a fallback.
+#angle-gradient-svg {
+  background-image: -svg(linear-gradient(
+    120deg,
+    #2ac363,
+    #cd8c14,
+    #9c4cc2
+  ));
+  width: 80px;
+  height: 80px;
+}
