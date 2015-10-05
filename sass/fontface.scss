@@ -2,3 +2,20 @@
 
 
 
+@include font-face("chunkfiveregular",
+    font-files(
+        "Chunkfive-webfont.woff", woff,
+        "Chunkfive-webfont.ttf", ttf,
+        "Chunkfive-webfont.svg", svg
+    ),
+    "Chunkfive-webfont.eot", normal, normal
+ );
+
+ body {
+     padding: 2em;
+ }
+ 
+ h1 {
+     font-family: 'chunkfiveregular';
+     font-size: 2em;
+ }
